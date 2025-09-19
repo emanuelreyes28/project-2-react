@@ -1,4 +1,3 @@
-import React from 'react';
 import LikeButton from './like-button';
  
 function Header({ title }) {
@@ -16,8 +15,7 @@ export default function HomePage() {
         {names.map((name) => (
           <li key={name}>{name}</li>
         ))}
-  
-
+        
       </ul>
  
       <LikeButton />
